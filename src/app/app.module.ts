@@ -11,6 +11,8 @@ import { OfferingsComponent } from './home-page/offerings/offerings.component';
 import { BlogsComponent } from './home-page/blogs/blogs.component';
 import { AnnouncementsComponent } from './home-page/announcements/announcements.component';
 import { DealsComponent } from './home-page/deals/deals.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from 'src/Material.Module';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { DealsComponent } from './home-page/deals/deals.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

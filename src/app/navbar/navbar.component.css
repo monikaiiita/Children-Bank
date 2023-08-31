@@ -1,0 +1,61 @@
+/* Style the entire navbar */
+nav {
+    background-color: #9b59b6; /* Amber Yellowish-Purple Color */
+    color: white;
+  }
+  
+  /* Style the logo container */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add spacing between logo and buttons */
+  }
+  
+  /* Style the logo */
+  .logo {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add spacing between logo and bank name */
+  }
+  .logo-text {
+    font-size: 22px; /* Adjust the font size as needed */
+}
+.about-link {
+    margin-left: 250px; /* Adjust the margin value as needed */
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px; /* Adjust the font size for the other links */
+}
+  
+  /* Style the bank name */
+  .bank-name {
+    font-weight: bold;
+  }
+  
+  /* Style the list items */
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex; /* Display list items in a row */
+    align-items: center; /* Center items vertically */
+  }
+  
+  /* Style list items */
+  li {
+    margin: 0 15px; /* Add spacing between items */
+    transition: color 0.3s; /* Add smooth transition effect */
+  }
+  
+  /* Style links */
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Change link color on hover */
+  li:hover a {
+    color: #f39c12; /* Highlighted Color */
+  }
+  
